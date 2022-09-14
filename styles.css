@@ -1,31 +1,15 @@
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+* {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+	font-size: 20px;
 }
-body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+	line-height: 40px;
+	padding-left: 30px;
 }
-.caja{
-    width: 50vw;
-    height: 50vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.circulo{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    
-}
-.uno{
-    background-color: black;
-}
-.dos{
-    background-color: grey;
+h1 {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 50px;
 }
